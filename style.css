@@ -1,5 +1,17 @@
+body{
+    width: 20%;
+    margin: auto;
+    margin-top: 200px;
+    text-align: center;
+}
 button{
     border: white 2px solid;
+    border-radius: 99px;
+    background-color: blue;
+    color: white;
+    font-size: 14pt;
+    padding: 20px;
+    width: 350px;
 
 }
 .e404{
