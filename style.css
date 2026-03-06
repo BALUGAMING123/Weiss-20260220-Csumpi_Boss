@@ -1,7 +1,6 @@
-body{
+div{
     width: 20%;
     margin: auto;
-    margin-top: 200px;
     text-align: center;
 }
 button{
@@ -16,4 +15,12 @@ button{
 }
 .e404{
     text-align: center;
+}
+.e404 p{
+    font-size: xx-large;
+}
+#POTM{
+    width: 100%;
+    height: auto;
+    margin: auto;
 }
