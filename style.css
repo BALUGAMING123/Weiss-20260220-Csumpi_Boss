@@ -1,8 +1,15 @@
-div{
-    width: 20%;
+body{
+    color: white;
+    background-color: rgb(23, 23, 23);
+    font-family: Arial, Helvetica, sans-serif;
+    width: 70%;
     margin: auto;
-    text-align: center;
 }
+#main_item{
+    text-align: center;
+    margin: auto;
+}
+
 button{
     border: white 2px solid;
     border-radius: 99px;
@@ -19,8 +26,65 @@ button{
 .e404 p{
     font-size: xx-large;
 }
-#POTM{
-    width: 100%;
-    height: auto;
+.W_image{
+    margin: 35px;
+    margin-bottom: 5px;
+    border-radius: 20px;
+    border: 3px solid white;
+    width: auto;
+    height: 350px;
+
+}
+#Team{
+    width: 1000px;
+    height: 600px;
     margin: auto;
+    border: white 3px solid;
+    border-radius: 20px;
+}
+#small_button{
+    width: 250px;
+    height: auto;
+
+}
+#small_button_r{
+    width: 250px;
+    height: auto;
+    float: right;
+}
+#watt_daddy{
+    height: 500px;
+    width: auto;
+    border: 3px solid white;
+    border-radius: 20px;
+    margin: 35px;
+    float: left;
+}
+#W_D_info{
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+h1{
+    text-align: center;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  padding: 50px;
+}
+
+.profile img {
+  width: 500px;
+}
+
+.content {
+  max-width: 500px;
+}
+#idézet{
+    text-align: center;
+    font-style: italic;
 }
